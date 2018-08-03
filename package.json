@@ -1,0 +1,20 @@
+{
+  "name": "f2e-09-skill-tree",
+  "version": "1.0.0",
+  "description": "The F2E - 前端修練精神時光屋 - Week 9 - Skill Tree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eden90267/f2e-09-skill-tree.git"
+  },
+  "keywords": [],
+  "author": "eden90267",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eden90267/f2e-09-skill-tree/issues"
+  },
+  "homepage": "https://github.com/eden90267/f2e-09-skill-tree#readme"
+}
