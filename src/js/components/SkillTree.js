@@ -1,7 +1,9 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
 
-import {MdPhonelink, MdSettings, MdFilterTiltShift} from 'react-icons/md'
+import MdPhonelink from 'react-icons/lib/md/phonelink'
+import MdSettings from 'react-icons/lib/md/settings'
+import MdFilterTiltShift from 'react-icons/lib/md/filter-tilt-shift'
 
 function mapStateToProps(state) {
   return {}

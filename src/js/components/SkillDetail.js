@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
 
-import {MdPhonelink} from 'react-icons/md'
-import {MdSettings} from 'react-icons/md'
+import MdPhonelink from 'react-icons/lib/md/phonelink'
+import MdSettings from 'react-icons/lib/md/settings'
 
 function mapStateToProps(state) {
   return {};
