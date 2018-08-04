@@ -19,6 +19,9 @@ class SkillHeader extends Component {
             <img src={require('../../../assets/img-ship-beginner.png')}/>
           </div>
         </div>
+        <div className="skill-level-dialog">
+          <img src={require('../../../assets/dialog.svg')}/>
+        </div>
         <p className="skill-level-detail">
           Welcome aboard. Your mission is: <span className="important">Collect the resources and learn the skills to upgrade the ship.</span> Good luck, captain!
         </p>

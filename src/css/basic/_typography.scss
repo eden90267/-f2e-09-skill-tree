@@ -5,6 +5,11 @@
 body {
   background: linear-gradient(90deg, #250060 3%, #100029 78%);
   color: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -15,5 +20,4 @@ img {
 
 .wrap {
   width: 940px;
-  margin: 40px auto;
 }
