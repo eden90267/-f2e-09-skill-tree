@@ -1,0 +1,58 @@
+@import "../lib/bootstrap/variables";
+
+.skill-tree-item-arrow {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  background: $secondary3-color;
+  top: -13px;
+  margin-bottom: 5px;
+
+  &::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 30px 0 30px;
+    border-color: $secondary3-color transparent transparent transparent;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.skill-items {
+  width: 195px;
+
+  & > div {
+    margin-bottom: 18px;
+  }
+}
+
+.skill-item {
+  margin-right: 4px;
+  &-pic {
+    background: rgba(255, 255, 255, .1);
+    padding: 10px;
+  }
+  & > ul > li {
+    font-size: 14px;
+  }
+}
+
+.skill-items-basics {
+
+}
+
+.skill-items-css {
+
+}
+
+.skill-items-javascript {
+
+}
+
+.skill-items-managers {
+
+}

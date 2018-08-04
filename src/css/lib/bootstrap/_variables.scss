@@ -8,12 +8,18 @@
 $fonts: 'Roboto:400,700,900i';
 @include gwf($fonts);
 
-
 //
 // Color system
 //
 
 // stylelint-disable
+
+$main-color: #FF0093;
+$secondary-color: rgba(128, 0, 255, 1);
+$secondary2-color: rgba(128, 0, 255, .7);
+$secondary3-color: rgba(128, 0, 255, .3);
+$bg-color: #250060;
+
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
