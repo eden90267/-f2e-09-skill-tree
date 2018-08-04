@@ -1,6 +1,8 @@
 import {createStore, combineReducers, applyMiddleware} from 'redux'
 // import {} from './reducer'
 
+const LOCAL_STORAGE_NAME = 'f2e-09-skill-tree'
+
 const stateData = {
   data: []
 }
@@ -16,10 +18,18 @@ const logger = store => next => action => {
   return result
 }
 
+const saver = store => next => action => {
+  let result = next(action)
+  localStorage[LOCAL_STORAGE_NAME] = JSON.stringify(store.getState())
+  return result
+}
+
 const storeFactory = (initialState = stateData) =>
-  applyMiddleware(logger)(createStore)(
+  applyMiddleware(logger, saver)(createStore)(
     combineReducers({}),
-    initialState
+    (localStorage[LOCAL_STORAGE_NAME]) ?
+      JSON.parse(localStorage[LOCAL_STORAGE_NAME]) :
+      initialState
   )
 
 export default storeFactory

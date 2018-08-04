@@ -1,9 +1,7 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
 
-import MdPhonelink from 'react-icons/lib/md/phonelink'
-import MdSettings from 'react-icons/lib/md/settings'
-import MdFilterTiltShift from 'react-icons/lib/md/filter-tilt-shift'
+import SkillIcon from "./SkillIcon";
 
 function mapStateToProps(state) {
   return {}
@@ -43,69 +41,20 @@ class SkillTree extends Component {
 
             <div className="skill-item">
               <div className="skill-item-pic mb-1">
-                <MdPhonelink style={{width: 40, height: 40}}/>
+                <SkillIcon iconName="basic-skills" style={{width: 40, height: 40}}/>
               </div>
               <ul className="list-unstyled mb-1">
-                <li className="text-center"><MdSettings style={{marginBottom: 2}}/> 0/3</li>
-                <li className="text-center"><MdFilterTiltShift style={{marginBottom: 2}}/> 0/0</li>
+                <li className="text-center"><SkillIcon iconName="setting" style={{marginBottom: 2}}/> 0/3</li>
+                <li className="text-center"><SkillIcon iconName="filter-tilt-shift" style={{marginBottom: 2}}/> 0/0</li>
               </ul>
             </div>
             <div className="skill-item">
               <div className="skill-item-pic mb-1">
-                <MdPhonelink style={{width: 40, height: 40}}/>
+                <SkillIcon iconName="basic-skills" style={{width: 40, height: 40}}/>
               </div>
               <ul className="list-unstyled mb-1">
-                <li className="text-center"><MdSettings style={{marginBottom: 2}}/> 0/3</li>
-                <li className="text-center"><MdFilterTiltShift style={{marginBottom: 2}}/> 0/0</li>
-              </ul>
-            </div>
-
-          </div>
-          <div className="d-flex flex-wrap">
-
-            <div className="skill-item">
-              <div className="skill-item-pic mb-1">
-                <MdPhonelink style={{width: 40, height: 40}}/>
-              </div>
-              <ul className="list-unstyled mb-1">
-                <li className="text-center"><MdSettings style={{marginBottom: 2}}/> 0/3</li>
-                <li className="text-center"><MdFilterTiltShift style={{marginBottom: 2}}/> 0/0</li>
-              </ul>
-            </div>
-            <div className="skill-item">
-              <div className="skill-item-pic mb-1">
-                <MdPhonelink style={{width: 40, height: 40}}/>
-              </div>
-              <ul className="list-unstyled mb-1">
-                <li className="text-center"><MdSettings style={{marginBottom: 2}}/> 0/3</li>
-                <li className="text-center"><MdFilterTiltShift style={{marginBottom: 2}}/> 0/0</li>
-              </ul>
-            </div>
-            <div className="skill-item">
-              <div className="skill-item-pic mb-1">
-                <MdPhonelink style={{width: 40, height: 40}}/>
-              </div>
-              <ul className="list-unstyled mb-1">
-                <li className="text-center"><MdSettings style={{marginBottom: 2}}/> 0/3</li>
-                <li className="text-center"><MdFilterTiltShift style={{marginBottom: 2}}/> 0/0</li>
-              </ul>
-            </div>
-            <div className="skill-item">
-              <div className="skill-item-pic mb-1">
-                <MdPhonelink style={{width: 40, height: 40}}/>
-              </div>
-              <ul className="list-unstyled mb-1">
-                <li className="text-center"><MdSettings style={{marginBottom: 2}}/> 0/3</li>
-                <li className="text-center"><MdFilterTiltShift style={{marginBottom: 2}}/> 0/0</li>
-              </ul>
-            </div>
-            <div className="skill-item">
-              <div className="skill-item-pic mb-1">
-                <MdPhonelink style={{width: 40, height: 40}}/>
-              </div>
-              <ul className="list-unstyled mb-1">
-                <li className="text-center"><MdSettings style={{marginBottom: 2}}/> 0/3</li>
-                <li className="text-center"><MdFilterTiltShift style={{marginBottom: 2}}/> 0/0</li>
+                <li className="text-center"><SkillIcon iconName="setting" style={{marginBottom: 2}}/> 0/3</li>
+                <li className="text-center"><SkillIcon iconName="filter-tilt-shift" style={{marginBottom: 2}}/> 0/0</li>
               </ul>
             </div>
 
@@ -114,47 +63,47 @@ class SkillTree extends Component {
 
             <div className="skill-item">
               <div className="skill-item-pic mb-1">
-                <MdPhonelink style={{width: 40, height: 40}}/>
+                <SkillIcon iconName="basic-skills" style={{width: 40, height: 40}}/>
               </div>
               <ul className="list-unstyled mb-1">
-                <li className="text-center"><MdSettings style={{marginBottom: 2}}/> 0/3</li>
-                <li className="text-center"><MdFilterTiltShift style={{marginBottom: 2}}/> 0/0</li>
+                <li className="text-center"><SkillIcon iconName="setting" style={{marginBottom: 2}}/> 0/3</li>
+                <li className="text-center"><SkillIcon iconName="filter-tilt-shift" style={{marginBottom: 2}}/> 0/0</li>
               </ul>
             </div>
             <div className="skill-item">
               <div className="skill-item-pic mb-1">
-                <MdPhonelink style={{width: 40, height: 40}}/>
+                <SkillIcon iconName="basic-skills" style={{width: 40, height: 40}}/>
               </div>
               <ul className="list-unstyled mb-1">
-                <li className="text-center"><MdSettings style={{marginBottom: 2}}/> 0/3</li>
-                <li className="text-center"><MdFilterTiltShift style={{marginBottom: 2}}/> 0/0</li>
+                <li className="text-center"><SkillIcon iconName="setting" style={{marginBottom: 2}}/> 0/3</li>
+                <li className="text-center"><SkillIcon iconName="filter-tilt-shift" style={{marginBottom: 2}}/> 0/0</li>
               </ul>
             </div>
             <div className="skill-item">
               <div className="skill-item-pic mb-1">
-                <MdPhonelink style={{width: 40, height: 40}}/>
+                <SkillIcon iconName="basic-skills" style={{width: 40, height: 40}}/>
               </div>
               <ul className="list-unstyled mb-1">
-                <li className="text-center"><MdSettings style={{marginBottom: 2}}/> 0/3</li>
-                <li className="text-center"><MdFilterTiltShift style={{marginBottom: 2}}/> 0/0</li>
+                <li className="text-center"><SkillIcon iconName="setting" style={{marginBottom: 2}}/> 0/3</li>
+                <li className="text-center"><SkillIcon iconName="filter-tilt-shift" style={{marginBottom: 2}}/> 0/0</li>
               </ul>
             </div>
             <div className="skill-item">
               <div className="skill-item-pic mb-1">
-                <MdPhonelink style={{width: 40, height: 40}}/>
+                <SkillIcon iconName="basic-skills" style={{width: 40, height: 40}}/>
               </div>
               <ul className="list-unstyled mb-1">
-                <li className="text-center"><MdSettings style={{marginBottom: 2}}/> 0/3</li>
-                <li className="text-center"><MdFilterTiltShift style={{marginBottom: 2}}/> 0/0</li>
+                <li className="text-center"><SkillIcon iconName="setting" style={{marginBottom: 2}}/> 0/3</li>
+                <li className="text-center"><SkillIcon iconName="filter-tilt-shift" style={{marginBottom: 2}}/> 0/0</li>
               </ul>
             </div>
             <div className="skill-item">
               <div className="skill-item-pic mb-1">
-                <MdPhonelink style={{width: 40, height: 40}}/>
+                <SkillIcon iconName="basic-skills" style={{width: 40, height: 40}}/>
               </div>
               <ul className="list-unstyled mb-1">
-                <li className="text-center"><MdSettings style={{marginBottom: 2}}/> 0/3</li>
-                <li className="text-center"><MdFilterTiltShift style={{marginBottom: 2}}/> 0/0</li>
+                <li className="text-center"><SkillIcon iconName="setting" style={{marginBottom: 2}}/> 0/3</li>
+                <li className="text-center"><SkillIcon iconName="filter-tilt-shift" style={{marginBottom: 2}}/> 0/0</li>
               </ul>
             </div>
 
@@ -163,20 +112,69 @@ class SkillTree extends Component {
 
             <div className="skill-item">
               <div className="skill-item-pic mb-1">
-                <MdPhonelink style={{width: 40, height: 40}}/>
+                <SkillIcon iconName="basic-skills" style={{width: 40, height: 40}}/>
               </div>
               <ul className="list-unstyled mb-1">
-                <li className="text-center"><MdSettings style={{marginBottom: 2}}/> 0/3</li>
-                <li className="text-center"><MdFilterTiltShift style={{marginBottom: 2}}/> 0/0</li>
+                <li className="text-center"><SkillIcon iconName="setting" style={{marginBottom: 2}}/> 0/3</li>
+                <li className="text-center"><SkillIcon iconName="filter-tilt-shift" style={{marginBottom: 2}}/> 0/0</li>
               </ul>
             </div>
             <div className="skill-item">
               <div className="skill-item-pic mb-1">
-                <MdPhonelink style={{width: 40, height: 40}}/>
+                <SkillIcon iconName="basic-skills" style={{width: 40, height: 40}}/>
               </div>
               <ul className="list-unstyled mb-1">
-                <li className="text-center"><MdSettings style={{marginBottom: 2}}/> 0/3</li>
-                <li className="text-center"><MdFilterTiltShift style={{marginBottom: 2}}/> 0/0</li>
+                <li className="text-center"><SkillIcon iconName="setting" style={{marginBottom: 2}}/> 0/3</li>
+                <li className="text-center"><SkillIcon iconName="filter-tilt-shift" style={{marginBottom: 2}}/> 0/0</li>
+              </ul>
+            </div>
+            <div className="skill-item">
+              <div className="skill-item-pic mb-1">
+                <SkillIcon iconName="basic-skills" style={{width: 40, height: 40}}/>
+              </div>
+              <ul className="list-unstyled mb-1">
+                <li className="text-center"><SkillIcon iconName="setting" style={{marginBottom: 2}}/> 0/3</li>
+                <li className="text-center"><SkillIcon iconName="filter-tilt-shift" style={{marginBottom: 2}}/> 0/0</li>
+              </ul>
+            </div>
+            <div className="skill-item">
+              <div className="skill-item-pic mb-1">
+                <SkillIcon iconName="basic-skills" style={{width: 40, height: 40}}/>
+              </div>
+              <ul className="list-unstyled mb-1">
+                <li className="text-center"><SkillIcon iconName="setting" style={{marginBottom: 2}}/> 0/3</li>
+                <li className="text-center"><SkillIcon iconName="filter-tilt-shift" style={{marginBottom: 2}}/> 0/0</li>
+              </ul>
+            </div>
+            <div className="skill-item">
+              <div className="skill-item-pic mb-1">
+                <SkillIcon iconName="basic-skills" style={{width: 40, height: 40}}/>
+              </div>
+              <ul className="list-unstyled mb-1">
+                <li className="text-center"><SkillIcon iconName="setting" style={{marginBottom: 2}}/> 0/3</li>
+                <li className="text-center"><SkillIcon iconName="filter-tilt-shift" style={{marginBottom: 2}}/> 0/0</li>
+              </ul>
+            </div>
+
+          </div>
+          <div className="d-flex flex-wrap">
+
+            <div className="skill-item">
+              <div className="skill-item-pic mb-1">
+                <SkillIcon iconName="basic-skills" style={{width: 40, height: 40}}/>
+              </div>
+              <ul className="list-unstyled mb-1">
+                <li className="text-center"><SkillIcon iconName="setting" style={{marginBottom: 2}}/> 0/3</li>
+                <li className="text-center"><SkillIcon iconName="filter-tilt-shift" style={{marginBottom: 2}}/> 0/0</li>
+              </ul>
+            </div>
+            <div className="skill-item">
+              <div className="skill-item-pic mb-1">
+                <SkillIcon iconName="basic-skills" style={{width: 40, height: 40}}/>
+              </div>
+              <ul className="list-unstyled mb-1">
+                <li className="text-center"><SkillIcon iconName="setting" style={{marginBottom: 2}}/> 0/3</li>
+                <li className="text-center"><SkillIcon iconName="filter-tilt-shift" style={{marginBottom: 2}}/> 0/0</li>
               </ul>
             </div>
 

@@ -1,4 +1,17 @@
 @import "../lib/bootstrap/variables";
+@import "../basic/mixin";
+
+@include keyframes(wave) {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(5%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
 
 .skill-header {
   width: 300px;
@@ -32,6 +45,9 @@
 .skill-level-pic {
   width: 265px;
   height: 212px;
+  & > img {
+    animation: 2s wave infinite linear;
+  }
 }
 
 .skill-level-detail {
