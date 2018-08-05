@@ -38,6 +38,7 @@
     text-align: center;
     width: 196px;
     margin-bottom: 6px;
+    cursor: pointer;
 
     &:hover, &.completed {
       border-color: $main-color;
