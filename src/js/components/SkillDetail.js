@@ -23,7 +23,7 @@ class SkillDetail extends Component {
           </div>
           <h4 className="mb-3">RECOMMENDED</h4>
           <ul className="list-unstyled d-flex flex-column align-items-center">
-            <li>Learn HTML</li>
+            <li className="completed">Learn HTML</li>
             <li>Basics of CSS</li>
             <li>Basics of JavaScript</li>
           </ul>

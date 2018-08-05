@@ -38,6 +38,11 @@
     text-align: center;
     width: 196px;
     margin-bottom: 6px;
+
+    &:hover, &.completed {
+      border-color: $main-color;
+      background: $main-color;
+    }
   }
 
 }

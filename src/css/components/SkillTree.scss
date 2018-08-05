@@ -36,10 +36,60 @@
 
 .skill-item {
   margin-right: 4px;
+  cursor: pointer;
+
   &-pic {
     background: rgba(255, 255, 255, .1);
     padding: 10px;
   }
+  &.disabled {
+    .skill-item-pic, ul > li {
+      color: rgba(255, 255, 255, .1);
+    }
+    &:hover {
+      .skill-item-pic, ul > li {
+        cursor: default !important;
+      }
+      .skill-item-pic {
+        background: rgba(255, 255, 255, .1) !important;
+        color: rgba(255, 255, 255, .1) !important;
+        border: 0 !important;
+        padding: 10px !important;
+      }
+    }
+  }
+  &:hover, &.active {
+    .skill-item-pic {
+      color: #fff !important;
+      border: 2px solid $main-color;
+      background: $secondary2-color;
+      padding: 8px;
+      &::before {
+        display: none;
+      }
+    }
+  }
+  &.completed {
+    .skill-item-pic {
+      color: $secondary2-color;
+      position: relative;
+      &::before {
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 16px 16px 0;
+        border-color: transparent $secondary2-color transparent transparent;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
+    ul > li {
+      color: $secondary2-color;
+    }
+  }
+
   & > ul > li {
     font-size: 14px;
   }
